@@ -115,5 +115,26 @@ double LNG = 30.5;
     XCTAssertEqualWithAccuracy(moonIllum.angle, 1.6732942678578346, NEARNESS);
 }
 
+- (void)test_README {
+    // Code from the GitHub README.md file
+    // get today's sunlight times for London
+    NSDate *today = [NSDate date];
+    SunCalc* sunCalc = [SunCalc getTimesForDate:today latitude:51.5 longitude:-0.1];
+    
+    // format sunrise time from the Date object
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"HH:mm"];
+    [formatter setTimeZone:[NSTimeZone timeZoneWithAbbreviation:@"GMT"]];
+    NSString* sunriseStr = [formatter stringFromDate:[sunCalc sunrise]];
+    NSLog(@"sunriseStr: %@", sunriseStr);
+    
+    // get position of the sun (azimuth and altitude) at today's sunrise
+    SunPosition* sunrisePos = [SunCalc getSunPositionDate:[sunCalc sunrise] latitude:51.5 longitude:-0.1];
+    
+    // get sunrise azimuth in degrees
+    double sunriseAzimuth = sunrisePos.azimuth * 180 / M_PI;
+    NSLog(@"sunriseAzimuth: %f", sunriseAzimuth);
+}
+
 @end
 
