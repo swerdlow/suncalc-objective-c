@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C46EF92E1900325E0002C150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46EF92D1900325E0002C150 /* Foundation.framework */; };
+		C46EF9331900325E0002C150 /* suncalc.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C46EF9321900325E0002C150 /* suncalc.h */; };
+		C46EF9351900325E0002C150 /* suncalc.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF9341900325E0002C150 /* suncalc.m */; };
+		C46EF93C1900325E0002C150 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46EF93B1900325E0002C150 /* XCTest.framework */; };
+		C46EF93D1900325E0002C150 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46EF92D1900325E0002C150 /* Foundation.framework */; };
+		C46EF93F1900325E0002C150 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46EF93E1900325E0002C150 /* UIKit.framework */; };
+		C46EF9421900325E0002C150 /* libsuncalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C46EF92A1900325E0002C150 /* libsuncalc.a */; };
+		C46EF9481900325E0002C150 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C46EF9461900325E0002C150 /* InfoPlist.strings */; };
+		C46EF94A1900325E0002C150 /* suncalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF9491900325E0002C150 /* suncalcTests.m */; };
+		C46EF956190046C30002C150 /* SunPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF955190046C30002C150 /* SunPosition.m */; };
+		C46EF95D19004A220002C150 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF95C19004A220002C150 /* Constants.m */; };
+		C46EF96019004BD90002C150 /* EquatorialCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF95F19004BD90002C150 /* EquatorialCoordinates.m */; };
+		C46EF96319004C8B0002C150 /* GeocentricCoordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF96219004C8B0002C150 /* GeocentricCoordinates.m */; };
+		C46EF96619004D0C0002C150 /* MoonPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF96519004D0C0002C150 /* MoonPosition.m */; };
+		C46EF96919004E2E0002C150 /* DateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF96819004E2E0002C150 /* DateUtils.m */; };
+		C46EF96C19004E5C0002C150 /* MoonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF96B19004E5C0002C150 /* MoonUtils.m */; };
+		C46EF96F19004F5B0002C150 /* PositionUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF96E19004F5B0002C150 /* PositionUtils.m */; };
+		C46EF972190051C60002C150 /* SunUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF971190051C60002C150 /* SunUtils.m */; };
+		C46EF975190053520002C150 /* TimeUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF974190053520002C150 /* TimeUtils.m */; };
+		C46EF97B19013E620002C150 /* MoonIllumination.m in Sources */ = {isa = PBXBuildFile; fileRef = C46EF97A19013E620002C150 /* MoonIllumination.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C46EF9401900325E0002C150 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C46EF9221900325E0002C150 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C46EF9291900325E0002C150;
+			remoteInfo = suncalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C46EF9281900325E0002C150 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C46EF9331900325E0002C150 /* suncalc.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C46EF92A1900325E0002C150 /* libsuncalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsuncalc.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46EF92D1900325E0002C150 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C46EF9311900325E0002C150 /* suncalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "suncalc-Prefix.pch"; sourceTree = "<group>"; };
+		C46EF9321900325E0002C150 /* suncalc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = suncalc.h; sourceTree = "<group>"; };
+		C46EF9341900325E0002C150 /* suncalc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = suncalc.m; sourceTree = "<group>"; };
+		C46EF93A1900325E0002C150 /* suncalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suncalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46EF93B1900325E0002C150 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C46EF93E1900325E0002C150 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C46EF9451900325E0002C150 /* suncalcTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "suncalcTests-Info.plist"; sourceTree = "<group>"; };
+		C46EF9471900325E0002C150 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C46EF9491900325E0002C150 /* suncalcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = suncalcTests.m; sourceTree = "<group>"; };
+		C46EF954190046C30002C150 /* SunPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SunPosition.h; path = models/SunPosition.h; sourceTree = "<group>"; };
+		C46EF955190046C30002C150 /* SunPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SunPosition.m; path = models/SunPosition.m; sourceTree = "<group>"; };
+		C46EF95B19004A220002C150 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = utils/Constants.h; sourceTree = "<group>"; };
+		C46EF95C19004A220002C150 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Constants.m; path = utils/Constants.m; sourceTree = "<group>"; };
+		C46EF95E19004BD90002C150 /* EquatorialCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EquatorialCoordinates.h; path = models/EquatorialCoordinates.h; sourceTree = "<group>"; };
+		C46EF95F19004BD90002C150 /* EquatorialCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EquatorialCoordinates.m; path = models/EquatorialCoordinates.m; sourceTree = "<group>"; };
+		C46EF96119004C8B0002C150 /* GeocentricCoordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeocentricCoordinates.h; path = models/GeocentricCoordinates.h; sourceTree = "<group>"; };
+		C46EF96219004C8B0002C150 /* GeocentricCoordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeocentricCoordinates.m; path = models/GeocentricCoordinates.m; sourceTree = "<group>"; };
+		C46EF96419004D0C0002C150 /* MoonPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoonPosition.h; path = models/MoonPosition.h; sourceTree = "<group>"; };
+		C46EF96519004D0C0002C150 /* MoonPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoonPosition.m; path = models/MoonPosition.m; sourceTree = "<group>"; };
+		C46EF96719004E2E0002C150 /* DateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DateUtils.h; path = utils/DateUtils.h; sourceTree = "<group>"; };
+		C46EF96819004E2E0002C150 /* DateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DateUtils.m; path = utils/DateUtils.m; sourceTree = "<group>"; };
+		C46EF96A19004E5C0002C150 /* MoonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoonUtils.h; path = utils/MoonUtils.h; sourceTree = "<group>"; };
+		C46EF96B19004E5C0002C150 /* MoonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoonUtils.m; path = utils/MoonUtils.m; sourceTree = "<group>"; };
+		C46EF96D19004F5B0002C150 /* PositionUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PositionUtils.h; path = utils/PositionUtils.h; sourceTree = "<group>"; };
+		C46EF96E19004F5B0002C150 /* PositionUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PositionUtils.m; path = utils/PositionUtils.m; sourceTree = "<group>"; };
+		C46EF970190051C60002C150 /* SunUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SunUtils.h; path = utils/SunUtils.h; sourceTree = "<group>"; };
+		C46EF971190051C60002C150 /* SunUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SunUtils.m; path = utils/SunUtils.m; sourceTree = "<group>"; };
+		C46EF973190053520002C150 /* TimeUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TimeUtils.h; path = utils/TimeUtils.h; sourceTree = "<group>"; };
+		C46EF974190053520002C150 /* TimeUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TimeUtils.m; path = utils/TimeUtils.m; sourceTree = "<group>"; };
+		C46EF97919013E620002C150 /* MoonIllumination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MoonIllumination.h; path = models/MoonIllumination.h; sourceTree = "<group>"; };
+		C46EF97A19013E620002C150 /* MoonIllumination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MoonIllumination.m; path = models/MoonIllumination.m; sourceTree = "<group>"; };
+		C46EF97C1901BABD0002C150 /* test_js.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = test_js.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C46EF9271900325E0002C150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46EF92E1900325E0002C150 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46EF9371900325E0002C150 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46EF93C1900325E0002C150 /* XCTest.framework in Frameworks */,
+				C46EF93F1900325E0002C150 /* UIKit.framework in Frameworks */,
+				C46EF93D1900325E0002C150 /* Foundation.framework in Frameworks */,
+				C46EF9421900325E0002C150 /* libsuncalc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C46EF9211900325E0002C150 = {
+			isa = PBXGroup;
+			children = (
+				C46EF92F1900325E0002C150 /* suncalc */,
+				C46EF9431900325E0002C150 /* suncalcTests */,
+				C46EF92C1900325E0002C150 /* Frameworks */,
+				C46EF92B1900325E0002C150 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C46EF92B1900325E0002C150 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF92A1900325E0002C150 /* libsuncalc.a */,
+				C46EF93A1900325E0002C150 /* suncalcTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C46EF92C1900325E0002C150 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF92D1900325E0002C150 /* Foundation.framework */,
+				C46EF93B1900325E0002C150 /* XCTest.framework */,
+				C46EF93E1900325E0002C150 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C46EF92F1900325E0002C150 /* suncalc */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF953190046890002C150 /* models */,
+				C46EF95A190049FF0002C150 /* utils */,
+				C46EF9321900325E0002C150 /* suncalc.h */,
+				C46EF9341900325E0002C150 /* suncalc.m */,
+				C46EF9301900325E0002C150 /* Supporting Files */,
+			);
+			path = suncalc;
+			sourceTree = "<group>";
+		};
+		C46EF9301900325E0002C150 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF9311900325E0002C150 /* suncalc-Prefix.pch */,
+				C46EF97C1901BABD0002C150 /* test_js.html */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C46EF9431900325E0002C150 /* suncalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF9491900325E0002C150 /* suncalcTests.m */,
+				C46EF9441900325E0002C150 /* Supporting Files */,
+			);
+			path = suncalcTests;
+			sourceTree = "<group>";
+		};
+		C46EF9441900325E0002C150 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF9451900325E0002C150 /* suncalcTests-Info.plist */,
+				C46EF9461900325E0002C150 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C46EF953190046890002C150 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF95E19004BD90002C150 /* EquatorialCoordinates.h */,
+				C46EF95F19004BD90002C150 /* EquatorialCoordinates.m */,
+				C46EF96119004C8B0002C150 /* GeocentricCoordinates.h */,
+				C46EF96219004C8B0002C150 /* GeocentricCoordinates.m */,
+				C46EF97919013E620002C150 /* MoonIllumination.h */,
+				C46EF97A19013E620002C150 /* MoonIllumination.m */,
+				C46EF96419004D0C0002C150 /* MoonPosition.h */,
+				C46EF96519004D0C0002C150 /* MoonPosition.m */,
+				C46EF954190046C30002C150 /* SunPosition.h */,
+				C46EF955190046C30002C150 /* SunPosition.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		C46EF95A190049FF0002C150 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				C46EF95B19004A220002C150 /* Constants.h */,
+				C46EF95C19004A220002C150 /* Constants.m */,
+				C46EF96719004E2E0002C150 /* DateUtils.h */,
+				C46EF96819004E2E0002C150 /* DateUtils.m */,
+				C46EF96A19004E5C0002C150 /* MoonUtils.h */,
+				C46EF96B19004E5C0002C150 /* MoonUtils.m */,
+				C46EF96D19004F5B0002C150 /* PositionUtils.h */,
+				C46EF96E19004F5B0002C150 /* PositionUtils.m */,
+				C46EF970190051C60002C150 /* SunUtils.h */,
+				C46EF971190051C60002C150 /* SunUtils.m */,
+				C46EF973190053520002C150 /* TimeUtils.h */,
+				C46EF974190053520002C150 /* TimeUtils.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C46EF9291900325E0002C150 /* suncalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46EF94D1900325E0002C150 /* Build configuration list for PBXNativeTarget "suncalc" */;
+			buildPhases = (
+				C46EF9261900325E0002C150 /* Sources */,
+				C46EF9271900325E0002C150 /* Frameworks */,
+				C46EF9281900325E0002C150 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = suncalc;
+			productName = suncalc;
+			productReference = C46EF92A1900325E0002C150 /* libsuncalc.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C46EF9391900325E0002C150 /* suncalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C46EF9501900325E0002C150 /* Build configuration list for PBXNativeTarget "suncalcTests" */;
+			buildPhases = (
+				C46EF9361900325E0002C150 /* Sources */,
+				C46EF9371900325E0002C150 /* Frameworks */,
+				C46EF9381900325E0002C150 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C46EF9411900325E0002C150 /* PBXTargetDependency */,
+			);
+			name = suncalcTests;
+			productName = suncalcTests;
+			productReference = C46EF93A1900325E0002C150 /* suncalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C46EF9221900325E0002C150 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = InfoBridge;
+			};
+			buildConfigurationList = C46EF9251900325E0002C150 /* Build configuration list for PBXProject "suncalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C46EF9211900325E0002C150;
+			productRefGroup = C46EF92B1900325E0002C150 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C46EF9291900325E0002C150 /* suncalc */,
+				C46EF9391900325E0002C150 /* suncalcTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C46EF9381900325E0002C150 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46EF9481900325E0002C150 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C46EF9261900325E0002C150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46EF96F19004F5B0002C150 /* PositionUtils.m in Sources */,
+				C46EF96C19004E5C0002C150 /* MoonUtils.m in Sources */,
+				C46EF96319004C8B0002C150 /* GeocentricCoordinates.m in Sources */,
+				C46EF97B19013E620002C150 /* MoonIllumination.m in Sources */,
+				C46EF9351900325E0002C150 /* suncalc.m in Sources */,
+				C46EF96619004D0C0002C150 /* MoonPosition.m in Sources */,
+				C46EF956190046C30002C150 /* SunPosition.m in Sources */,
+				C46EF96919004E2E0002C150 /* DateUtils.m in Sources */,
+				C46EF95D19004A220002C150 /* Constants.m in Sources */,
+				C46EF96019004BD90002C150 /* EquatorialCoordinates.m in Sources */,
+				C46EF975190053520002C150 /* TimeUtils.m in Sources */,
+				C46EF972190051C60002C150 /* SunUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C46EF9361900325E0002C150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C46EF94A1900325E0002C150 /* suncalcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C46EF9411900325E0002C150 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C46EF9291900325E0002C150 /* suncalc */;
+			targetProxy = C46EF9401900325E0002C150 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C46EF9461900325E0002C150 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C46EF9471900325E0002C150 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C46EF94B1900325E0002C150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C46EF94C1900325E0002C150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C46EF94E1900325E0002C150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/suncalc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suncalc/suncalc-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C46EF94F1900325E0002C150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/suncalc.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suncalc/suncalc-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C46EF9511900325E0002C150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suncalc/suncalc-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "suncalcTests/suncalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C46EF9521900325E0002C150 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "suncalc/suncalc-Prefix.pch";
+				INFOPLIST_FILE = "suncalcTests/suncalcTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C46EF9251900325E0002C150 /* Build configuration list for PBXProject "suncalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46EF94B1900325E0002C150 /* Debug */,
+				C46EF94C1900325E0002C150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C46EF94D1900325E0002C150 /* Build configuration list for PBXNativeTarget "suncalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46EF94E1900325E0002C150 /* Debug */,
+				C46EF94F1900325E0002C150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C46EF9501900325E0002C150 /* Build configuration list for PBXNativeTarget "suncalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C46EF9511900325E0002C150 /* Debug */,
+				C46EF9521900325E0002C150 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C46EF9221900325E0002C150 /* Project object */;
+}
