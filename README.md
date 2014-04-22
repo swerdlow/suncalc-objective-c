@@ -9,7 +9,7 @@ License: MIT
 
 This code is based on the original Javascript suncalc by Vladimir Agafonkin ("mourner").  I also used the Java port by Nolan Caudill ("mncaudill") for ideas.  Where these two diverged, I tried to stick with the original.  This Objective C port for iOS implements and passes the same tests as the original.
 
-```
+```objc
 // get today's sunlight times for London
 NSDate *today = [NSDate date];
 SunCalc* sunCalc = [SunCalc getTimesForDate:today latitude:51.5 longitude:-0.1];
