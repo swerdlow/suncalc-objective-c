@@ -15,7 +15,7 @@ const int J1970 = 2440588;
 const int J2000 = 2451545;
 
 + (double)toJulian:(NSDate*)date {
-    return (float)[date timeIntervalSince1970] / DAY_SECONDS - 0.5 + J1970;
+    return (double)[date timeIntervalSince1970] / DAY_SECONDS - 0.5 + J1970;
 }
 
 + (NSDate*)fromJulian:(double)j {
